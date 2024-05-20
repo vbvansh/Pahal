@@ -1,0 +1,93 @@
+/* Header.css */
+
+.header {
+  padding: 20px; /* Adjusted padding for better spacing */
+  color: #333; /* Darker text color for better contrast */
+  display: flex;
+  flex-direction: row; /* Keep items in a row for larger screens */
+  justify-content: space-between;
+  align-items: center; /* Center align items */
+  box-sizing: border-box; /* Include padding in the total height */
+  margin-top: 20px;
+  width: 100%; /* Adjusted width for the gray background */
+  margin: 0 auto; /* Center the header by adding margin auto */
+}
+
+.left-content {
+  text-align: left;
+  width: 70%; /* 70% width for the left content */
+}
+
+.about-section {
+  padding-left: 10%; /* Adjusted spacing away from the left side */
+}
+
+.line {
+  width: 100%;
+  border: 0.5px solid #333; /* Thin line between heading and text */
+}
+
+.right-content {
+  text-align: right; /* Align text to the right */
+  width: 30%; /* 30% width for the right content */
+}
+
+.copyright {
+  font-size: 16px; /* Increased font size */
+  margin-top: 20px; /* Adjusted margin-top for better spacing */
+}
+
+.social-icons {
+  margin-top: 20px; /* Add some space above the social icons */
+}
+
+.social-icons a {
+  margin-right: 15px; /* Adjust spacing between social icons */
+  color: #333; /* Icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none;
+}
+
+.button-container {
+  margin-left: auto; /* Align the button to the rightmost part */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%; /* Full width for smaller screens */
+    padding-left: 5%; /* Adjusted padding for smaller screens */
+    padding-right: 5%; /* Adjusted padding for smaller screens */
+    box-sizing: border-box; /* Include padding in the total width */
+  }
+
+  .line {
+    margin-top: 10px; /* Adjusted margin-top for the line on smaller screens */
+  }
+
+  .right-content {
+    text-align: left; /* Align text to the left on smaller screens */
+    margin-top: 20px; /* Adjusted margin-top for better spacing on smaller screens */
+  }
+
+  .copyright {
+    margin-top: 10px; /* Adjusted margin-top for better spacing on smaller screens */
+  }
+
+  .social-icons {
+    margin-top: 20px; /* Adjust spacing for smaller screens */
+  }
+
+  .social-icons a {
+    margin-right: 10px; /* Adjust spacing for smaller screens */
+  }
+  .mobile-call {
+    max-width: 40px; /* Adjusted maximum width for smaller screens */
+    margin-left: 5px; /* Add margin to the left for spacing */
+  }
+}

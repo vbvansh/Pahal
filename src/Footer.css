@@ -1,0 +1,143 @@
+/* FooterComponent.css */
+
+.footer-container {
+  background-color: #FFD700; /* Darker yellow color */
+  padding: 30px; /* Increased padding for better spacing */
+  color: #333; /* Darker text color for better contrast */
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: space-between;
+  align-items: center; /* Center align items */
+  height: 450px; /* Increased height of the footer */
+  box-sizing: border-box; /* Include padding in the total height */
+  margin-top: 36px;
+}
+
+.left-content {
+  text-align: left;
+  width: 70%; /* 70% width for the left content */
+}
+
+.about-section {
+  padding-left: 10%; /* Adjusted spacing away from the left side */
+}
+
+.line {
+  width: 100%;
+  border: 0.5px solid #333; /* Thin line between heading and text */
+}
+
+.right-content {
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Add space between text and copyright */
+}
+
+.copyright {
+  font-size: 16px; /* Increased font size */
+  margin-top: 20px; /* Adjusted margin-top for better spacing */
+}
+
+.social-icons {
+  margin-top: 20px; /* Add some space above the social icons */
+}
+
+.social-icons a {
+  margin-right: 15px; /* Adjust spacing between social icons */
+  color: #333; /* Icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none;
+}
+
+/* Responsive styling for social icons */
+@media (max-width: 768px) {
+  .social-icons {
+      margin-top: 30px; /* Adjust spacing for smaller screens */
+  }
+
+  .social-icons a {
+      margin-right: 10px; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* FooterComponent.css */
+
+/* ... (existing styles) */
+
+.footer-container {
+  /* ... (existing styles) */
+
+  @media (max-width: 768px) {
+      flex-direction: column; /* Change to column layout for smaller screens */
+      height: auto; /* Auto height for responsiveness */
+      text-align: center; /* Center-align content for smaller screens */
+  }
+
+  .left-content {
+      width: 100%; /* Full width for smaller screens */
+      padding-left: 5%; /* Adjusted padding for smaller screens */
+      padding-right: 5%; /* Adjusted padding for smaller screens */
+      box-sizing: border-box; /* Include padding in the total width */
+  }
+
+  .line {
+      margin-top: 10px; /* Adjusted margin-top for the line on smaller screens */
+  }
+
+  .right-content {
+      margin-top: 20px; /* Adjusted margin-top for better spacing on smaller screens */
+  }
+
+  .copyright {
+      margin-top: 10px; /* Adjusted margin-top for better spacing on smaller screens */
+  }
+
+  .social-icons {
+      margin-top: 20px; /* Adjust spacing for smaller screens */
+  }
+
+  .social-icons a {
+      margin-right: 10px; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* Additional media query for Galaxy Fold or similar devices */
+/* FooterComponent.css */
+
+/* ... (existing styles) */
+
+/* Responsive styling for the entire footer */
+@media (max-width: 992px) {
+  .footer-container {
+    height: auto;
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .left-content {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+
+  .line {
+    margin-top: 10px;
+  }
+
+  .right-content {
+    margin-top: 20px;
+  }
+
+  .copyright {
+    margin-top: 10px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+  }
+}
+
+/* ... (existing styles) */

@@ -1,0 +1,117 @@
+/* Testimonials.css */
+
+.testimonials {
+    text-align: center;
+    padding: 50px;
+}
+
+.testimonial .shadow-effect {
+    background: rgb(232, 235, 236); /* Brighter gray background color */
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 350px; /* Increased height */
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 35%;
+    margin-top: 5%;
+    position: relative; /* Added position relative */
+}
+
+.testimonials .shadow-effect img {
+    max-width: 100%;
+    max-height: 70%; /* Adjusted max height for the image */
+    margin: 0 auto;
+    border-radius: 50%; /* Make the image appear in a circle */
+    overflow: hidden; /* Hide the overflow to keep it within the circle */
+}
+
+.testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 20px; /* Increased font size */
+    line-height: 1.5;
+    margin: 30px 0; /* Increased margin between "Lorem Ipsum" and text */
+    font-weight: 300;
+}
+
+.testimonials .shadow-effect strong {
+    font-weight: bold;
+}
+
+.testimonial-name {
+    margin: 0 auto;
+    display: table;
+    width: auto;
+    background: #3190e7;
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+
+    /* Button styling */
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Testimonials.css */
+
+.testimonials {
+    text-align: center;
+    padding: 5%;
+}
+
+.testimonial .shadow-effect {
+    background: rgb(232, 235, 236);
+    padding: 3%; /* Reduced padding */
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.1);
+    width: 70%; /* Reduced width */
+    height: auto; /* Adjusted height for responsiveness */
+    margin: 0 auto; /* Center the testimonial div using margin */
+    display: flex; /* Added display flex */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin-right: 64px;
+    /* margin-left: 96px; */
+}
+
+.testimonials .shadow-effect img {
+    max-width: 100%;
+    max-height: 60%; /* Reduced max height */
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 14px; /* Reduced font size */
+    line-height: 1.5;
+    margin: 15px 0; /* Adjusted margin for responsiveness */
+    font-weight: 300;
+}
+
+.testimonials .shadow-effect strong {
+    font-weight: bold;
+}
+
+/* Responsive class names */
+.responsive-testimonial {
+    width: 100%;
+}
+
+.responsive-image {
+    max-width: 50%;
+}
+
+.responsive-text {
+    font-size: 12px; /* Reduced font size */
+    margin: 10px 0; /* Adjusted margin for responsiveness */
+}

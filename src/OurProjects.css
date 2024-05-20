@@ -1,0 +1,24 @@
+/* ImageGallery.css */
+
+.responsive-container {
+    max-width: 100%;
+}
+
+.responsive-gallery {
+    max-width: 80%;
+    margin: 0 auto; /* Center the gallery horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.responsive-width {
+    width: 100%;
+}
+
+.responsive-image {
+    width: calc(33.33% - 10px); /* Adjusted width with margin for better spacing */
+    margin: 5px; /* Added margin to create spacing between images */
+    height: auto; /* Allow images to maintain their aspect ratio */
+    object-fit: cover;
+}

@@ -1,0 +1,102 @@
+/* ResponsiveAboutPahal.css */
+
+/* For screens smaller than 767px (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .flex-justify-between {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+
+    .pr-4 {
+        padding-right: 0; /* Remove right padding for smaller screens */
+    }
+
+    .w-1 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .bg-gray {
+        background-color: transparent; /* Remove background color for the right side on smaller screens */
+    }
+
+    .rounded-md {
+        border-radius: 0; /* Remove border radius for the right side on smaller screens */
+    }
+
+    .h-80 {
+        width: 100%; /* Set width to 100% for responsiveness */
+        height: auto; /* Auto height for responsiveness */
+    }
+
+    .mt-10 {
+        margin-top: 0; /* Remove top margin for the image on smaller screens */
+    }
+}
+
+/* For laptop-sized screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .h-80 {
+        height: 50vh; /* Set a specific height for the image on laptop-sized screens */
+    }
+}
+
+/* For desktop-sized screens */
+@media (min-width: 1025px) {
+    .h-80 {
+        height: 50vh; /* Set a specific height for the image on larger screens */
+    }
+}
+
+/* ResponsiveAboutPahal.css */
+
+/* For screens smaller than 767px (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .flex-justify-between {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+
+    .pr-4 {
+        padding-right: 0; /* Remove right padding for smaller screens */
+    }
+
+    .w-1 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .bg-gray {
+        background-color: transparent; /* Remove background color for the right side on smaller screens */
+    }
+
+    .rounded-md {
+        border-radius: 0; /* Remove border radius for the right side on smaller screens */
+    }
+
+    .h-80 {
+        width: 100%; /* Set width to 100% for responsiveness */
+        height: auto; /* Auto height for responsiveness */
+    }
+
+    .mt-10 {
+        margin-top: 0; /* Remove top margin for the image on smaller screens */
+    }
+
+    .text-3xl {
+        font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+
+    .text-2xl {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .mb-4 {
+        margin-bottom: 1rem; /* Adjusted margin for smaller screens */
+    }
+
+    .mb-8 {
+        margin-bottom: 2rem; /* Adjusted margin for smaller screens */
+    }
+
+    .button-container {
+        margin-left: auto; /* Align the button to the right for smaller screens */
+        margin-top: 1rem; /* Adjusted margin-top for smaller screens */
+    }
+}
